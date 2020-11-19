@@ -6,7 +6,7 @@ In your project's package.json, file, you'll need to add this preinstall script:
 
 ```
 	...
-	"preinstall": "npm install agencyanalytics/javascript#feature/setting-up-basics",
+	"preinstall": "npm install agencyanalytics/javascript#main/setting-up-basics",
 	...
 
 ```
