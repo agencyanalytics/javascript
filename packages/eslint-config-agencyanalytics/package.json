@@ -1,5 +1,5 @@
 {
-  "name": "agencyanalytics-eslint-config",
+  "name": "eslint-config-agencyanalytics",
   "version": "1.0.0",
   "description": "JS Linting for AgencyAnalytics",
   "main": "index.js",
