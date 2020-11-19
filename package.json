@@ -4,9 +4,7 @@
   "description": "Style guide for AgencyAnalytics Frontend",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm install airbnb/javascript#master"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,8 +19,5 @@
   "devDependencies": {
     "eslint": "^7.13.0"
   },
-  "dependencies": {
-    "airbnb-style": "github:airbnb/javascript#master",
-    "eslint-config-airbnb-base": "file:node_modules/airbnb-style/packages/eslint-config-airbnb-base"
-  }
+  "dependencies": {}
 }
