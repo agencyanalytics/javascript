@@ -1,2 +1,2 @@
-# AgencyAnalytics Eslint Config
-This package provides a shared Eslint config.
+# AgencyAnalytics Stylelint Config
+This package provides a shared Stylelint config.
