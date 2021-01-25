@@ -1,7 +1,0 @@
-{
-	"name":        "@agencyanalytics/stylelint-config-agencyanalytics",
-	"version":     "1.0.1",
-	"description": "A shared Eslint config",
-	"main":        "index.js",
-	"license":     "ISC"
-}
