@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-agencyanalytics",
+  "name": "@agencyanalytics/stylelint-config-agencyanalytics",
   "version": "1.0.0",
   "description": "Config for AgencyAnalytics Style Linting",
   "main": "index.js",
