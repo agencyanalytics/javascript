@@ -1,0 +1,16 @@
+{
+    "name": "@agencyanalytics/quantize",
+    "private": false,
+    "version": "1.2.1",
+    "source": "src/quantize.js",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "scripts": {
+        "build": "microbundle --no-compress --no-sourcemap",
+        "watch": "microbundle --no-compress --no-sourcemap watch"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "microbundle": "0.11.0"
+    }
+}
