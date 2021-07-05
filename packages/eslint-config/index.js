@@ -26,7 +26,8 @@ module.exports = {
 	'plugins':       [
 		'jsx-a11y',
 		'react',
-		'jsdoc'
+		'jsdoc',
+		'import'
 	],
 	'rules':         {
 		'jsdoc/require-jsdoc':                     ['error'],
@@ -230,5 +231,6 @@ module.exports = {
 				patterns: ['../*', './*']
 			}
 		],
+		"import/extensions":                       ['warn', 'always']
 	}
 };
