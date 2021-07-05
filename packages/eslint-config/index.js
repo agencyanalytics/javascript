@@ -220,6 +220,15 @@ module.exports = {
 				'name':    'event',
 				'message': 'Use local event instead.'
 			}
-		]
+		],
+		'no-nested-ternary':                       ['warn'],
+		'no-console':                              ['warn'],
+		// Disallow all relative imports.
+		'no-restricted-imports':                   [
+			'warn',
+			{
+				patterns: ['../*', './*']
+			}
+		],
 	}
 };
