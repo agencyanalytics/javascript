@@ -26,7 +26,8 @@ module.exports = {
 	'plugins':       [
 		'jsx-a11y',
 		'react',
-		'jsdoc'
+		'jsdoc',
+		'import'
 	],
 	'rules':         {
 		'jsdoc/require-jsdoc':                     ['error'],
@@ -220,6 +221,16 @@ module.exports = {
 				'name':    'event',
 				'message': 'Use local event instead.'
 			}
-		]
+		],
+		'no-nested-ternary':                       ['warn'],
+		'no-console':                              ['warn'],
+		// Disallow all relative imports.
+		'no-restricted-imports':                   [
+			'warn',
+			{
+				patterns: ['../*', './*']
+			}
+		],
+		"import/extensions":                       ['warn', 'always']
 	}
 };
